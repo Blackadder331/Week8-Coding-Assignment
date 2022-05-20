@@ -74,7 +74,9 @@ html {
     color: #fff;
 }
 
-
+.logomobile{
+  display: none;
+}
   
 /* Hero image */
 .heroImage {
@@ -317,7 +319,7 @@ input[type=submit]:hover {
 
 /* Footer */
 footer {
-    padding:4vh 10vw;
+    padding:6vh 10vw;
 }
 
 #grid {
@@ -365,11 +367,27 @@ ul{
     max-height: 400px;
   }
   
-  /* Hide logo */
+  /* Hide logo*/
   .logo{
     display: none;
+  } 
+
+  .logomobile {
+    display: flex;
+    background-size: cover;
+    padding: 18px 30px 18px 0px;
+    width: 13vw;
+    min-width: 5vw;
+    background-size: cover;
+    padding: 22px 18px 20px 0px;
+    height: max-content;
+    justify-content: center;
+    justify-content: space-between;
   }
 }
+
+
+
 
 @media (max-width: 700px) {
 
@@ -455,7 +473,7 @@ ul{
         float: left;
         color: #fff;
         text-align: center;
-        padding: 20px 15px ;
+        padding: 20px 8px ;
         font-size: 13px;
         letter-spacing: .01rem;
         transition: 0.3s;
@@ -480,9 +498,24 @@ ul{
       margin-left: -1%;
     }
 
-    /* Hide logo */
+    /* Hide logo 
     .logo{
       display: none;
-    }
+    }*/
 
+}
+
+/* STICKY/FIXED NAV */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-family: 'InterstateBold', serif;
+  font-weight: 700;
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  display: flex;
 }
