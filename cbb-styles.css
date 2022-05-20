@@ -375,7 +375,6 @@ ul{
   .logomobile {
     display: flex;
     background-size: cover;
-    padding: 18px 30px 18px 0px;
     max-width: 13vw;
     max-height: 20px;
     min-width: 5vw;
@@ -410,6 +409,11 @@ ul{
 
 /* Footer single column */
 @media only screen and (max-width: 600px) {
+  .logomobile {
+    padding: 20px 18px 17px 0px;
+  }
+
+
     #grid {
         grid-column: span 2;
         width: 100%;
