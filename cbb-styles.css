@@ -376,10 +376,11 @@ ul{
     display: flex;
     background-size: cover;
     padding: 18px 30px 18px 0px;
-    width: 13vw;
+    max-width: 13vw;
+    max-height: 20px;
     min-width: 5vw;
     background-size: cover;
-    padding: 22px 18px 20px 0px;
+    padding: 18px 18px 18px 0px;
     height: max-content;
     justify-content: center;
     justify-content: space-between;
